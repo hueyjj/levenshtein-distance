@@ -15,7 +15,7 @@ package main
 
 import (
     "fmt"
-    "github.com/hueyjj/levenshtein_distance"
+    "github.com/hueyjj/levenshtein-distance"
 )
 
 func main() {

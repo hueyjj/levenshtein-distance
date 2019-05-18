@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// LevenshteinDistance returns a metric used to determine the difference between two strings
+// Distance returns a metric used to determine the difference between two strings
 // Following the algorithm: https://en.wikipedia.org/wiki/Levenshtein_distance
 func Distance(s1, s2 string) int {
 	m, n := len(s1), len(s2)
